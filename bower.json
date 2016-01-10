@@ -1,0 +1,22 @@
+{
+  "name": "webpack-seed",
+  "description": "Demo webpack",
+  "main": "index.js",
+  "authors": [
+    "pokakhoaitay@live.com"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

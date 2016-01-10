@@ -1,0 +1,46 @@
+{
+  "name": "webpack-seed",
+  "version": "1.0.0",
+  "description": "Demo webpack",
+  "main": "index.js",
+  "author": "pokakhoaitay@live.com",
+  "license": "ISC",
+  "scripts": {
+    "start": "http-server",
+    "1.build:dev": "npm run 9.clean:dist && webpack --profile --colors --display-error-details --display-cached",
+    "2.watch:dev": "webpack --watch --profile --colors --display-error-details --display-cached",
+    "3.server:dev": "webpack-dev-server --profile --colors --display-error-details --display-cached --inline",
+    "9.clean:dist": "./node_modules/.bin/rimraf __dist__"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "es7-reflect-metadata": "^1.4.0",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "angular-ui-router": "^0.2.15",
+    "copy-webpack-plugin": "^0.3.3",
+    "css-loader": "^0.23.0",
+    "exports-loader": "0.6.2",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.7.0",
+    "imports-loader": "^0.6.4",
+    "json-loader": "^0.5.3",
+    "raw-loader": "0.5.1",
+    "reflect-metadata": "0.1.2",
+    "remap-istanbul": "^0.5.1",
+    "rimraf": "^2.4.4",
+    "style-loader": "^0.13.0",
+    "ts-helper": "0.0.1",
+    "ts-loader": "^0.7.2",
+    "uglify-loader": "^1.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-md5-hash": "0.0.4"
+  }
+}
